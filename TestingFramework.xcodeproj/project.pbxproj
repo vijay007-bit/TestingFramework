@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		19707EAC2A60132D0056B726 /* TestingFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 19707EAB2A60132D0056B726 /* TestingFramework.docc */; };
 		19707EB22A60132E0056B726 /* TestingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19707EA72A60132D0056B726 /* TestingFramework.framework */; };
-		19707EB72A60132E0056B726 /* TestingFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19707EB62A60132E0056B726 /* TestingFrameworkTests.swift */; };
 		19707EB82A60132E0056B726 /* TestingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 19707EAA2A60132D0056B726 /* TestingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19707EC82A6013E70056B726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19707EC72A6013E70056B726 /* AppDelegate.swift */; };
 		19707ECA2A6013E70056B726 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19707EC92A6013E70056B726 /* SceneDelegate.swift */; };
@@ -17,6 +16,8 @@
 		19707ECF2A6013E70056B726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19707ECD2A6013E70056B726 /* Main.storyboard */; };
 		19707ED12A6013E80056B726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19707ED02A6013E80056B726 /* Assets.xcassets */; };
 		19707ED42A6013E80056B726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19707ED22A6013E80056B726 /* LaunchScreen.storyboard */; };
+		19707EDA2A60169D0056B726 /* TestingFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19707ED92A60169D0056B726 /* TestingFramework.swift */; };
+		19707EDC2A6019950056B726 /* TestingFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19707EB62A60132E0056B726 /* TestingFrameworkTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		19707ED02A6013E80056B726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19707ED32A6013E80056B726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19707ED52A6013E80056B726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19707ED92A60169D0056B726 /* TestingFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				19707EAA2A60132D0056B726 /* TestingFramework.h */,
 				19707EAB2A60132D0056B726 /* TestingFramework.docc */,
+				19707ED92A60169D0056B726 /* TestingFramework.swift */,
 			);
 			path = TestingFramework;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19707EAC2A60132D0056B726 /* TestingFramework.docc in Sources */,
+				19707EDA2A60169D0056B726 /* TestingFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19707EB72A60132E0056B726 /* TestingFrameworkTests.swift in Sources */,
+				19707EDC2A6019950056B726 /* TestingFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +503,7 @@
 		19707EBF2A60132E0056B726 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A2LLH93JJN;
@@ -515,6 +520,7 @@
 		19707EC02A60132E0056B726 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A2LLH93JJN;
